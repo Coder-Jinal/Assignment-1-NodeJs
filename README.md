@@ -44,3 +44,20 @@ This project is a web application designed for managing projects and skills. It 
 
     ```bash
     cd your-repository-name
+3. Install the dependencies:
+
+    ```bash
+    npm install
+4. Create a .env file in the root directory and add your MongoDB credentials:
+
+   ```bash
+   DBUSER=your-mongo-db-username
+   DBPWD=your-mongo-db-password
+   DBHOST=your-mongo-db-host
+   DBNAME=your-database-name
+   SESSIONSECRET=your-session-secret
+5. Start the application:
+
+    ```bash
+    npm start
+6. The application will be available at http://localhost:8000. 
