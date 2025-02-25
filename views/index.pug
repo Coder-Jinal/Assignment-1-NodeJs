@@ -1,0 +1,63 @@
+extends common/layout
+
+block layout-content
+    section#welcome(class="container py-5 text-center")
+        h1 Hi, I'm Jinal Patel, and I'm a passionate web developer!
+        p.lead I'm an enthusiastic developer building innovative web applications.
+
+    section#projects(class="container py-5")
+        h2.text-center Project Showcase
+        p.text-center Explore my latest work and contributions.
+        div.text-center
+            a.btn.btn-primary(href="/projects/list") View My Projects
+
+    section#experiences(class="container py-5")
+        h2.text-center My Experiences
+        .experience-list
+            .card.mb-4
+                .card-body
+                    h5.card-title Web Developer (12/2024 - 01/2025)
+                    h6.card-subtitle.text-muted Talon Millwork – Smithville, ON
+                    ul
+                        li Coded websites using HTML, CSS, JavaScript, and jQuery.
+                        li Enhanced user experience by implementing responsive web design and optimizing website performance.
+                        li Developed custom web applications, resulting in tailored solutions for client needs.
+                        li Planned website development, converting mockups into usable web presence with HTML, JavaScript, AJAX, and JSON coding.
+
+            .card.mb-4
+                .card-body
+                    h5.card-title Full Stack Web Developer (12/2022 - 12/2023)
+                    h6.card-subtitle.text-muted Concetto Labs – Gujarat, India
+                    ul
+                        li Used JavaScript, SQL, and HTML to develop app solutions.
+                        li Increased website performance by optimizing front-end and back-end code for faster loading times.
+                        li Developed efficient and maintainable software according to business objectives and client needs.
+                        li Improved and designed monitoring systems to address issues with system stability and data quality.
+
+            .card.mb-4
+                .card-body
+                    h5.card-title Internship - Python (06/2022 - 08/2022)
+                    h6.card-subtitle.text-muted Emerging Five – Gujarat, India
+                    ul
+                        li Assisted in developing, testing, and debugging Python-based applications.
+                        li Researched and implemented new technologies to enhance existing systems or build new ones.
+                        li Collaborated with team members to understand project requirements and contribute to solution design.
+                        li Worked on assigned tasks in an organized and timely manner, seeking guidance when necessary.
+
+    section#skills(class="container py-5")
+        h2.text-center My Skills
+        p.text-center Here are some of the technologies and tools I work with.
+        div.text-center.mt-3
+            a.btn.btn-secondary(href="/skills/list") View All Skills
+
+    section#about(class="container py-5")
+        h2.text-center About Me
+        p.text-center I enjoy solving real-world challenges using modern web technologies. Passionate about full-stack development and creative problem-solving.
+
+    section#contact(class="container py-5 text-center")
+        h2.text-center Let's Connect!
+        p Have an idea or project? Feel free to reach out!
+        div.text-center
+            a.btn.btn-info(href="https://www.linkedin.com/in/jinalpatel1812/" target="_blank") LinkedIn 
+            |  
+            a.btn.btn-dark(href="https://github.com/Coder-Jinal" target="_blank") GitHub

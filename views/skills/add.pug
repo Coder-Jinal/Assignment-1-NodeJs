@@ -1,0 +1,19 @@
+extends ../common/layout 
+
+block layout-content 
+    h2 Add a Skill 
+    form(action="/skills/add/submit", method="POST")
+        .form-skill 
+            label(for="name") Skill Name: 
+            input(type="text" id="name" name="name" placeholder="JavaScript")
+        .form-skill 
+            label(for="proficiency") Proficiency Level: 
+            select(id="proficiency" name="proficiency")
+                option(value="Beginner") Beginner
+                option(value="Intermediate") Intermediate
+                option(value="Advanced") Advanced
+        .form-skill 
+            label(for="yearsOfExperience") Years of Experience:
+            input(type="number" id="yearsOfExperience" name="yearsOfExperience" placeholder="3")
+        .form-skill 
+            button(type="submit" class="btn btn-primary") Add Skill
